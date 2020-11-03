@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Voucher</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.2.0/uuid.min.js"></script>
+</head>
+
+<body>
+
+    <form id="add_form">
+        <h1>Tourist Voucher</h1>
+        <label for="exapleImputEmail1">Country</label>
+        <input type="text" id="country_input">
+        <label for="exapleImputEmail1">Duration In Days</label>
+        <input type="text" id="duration_input">
+        <label for="exapleImputEmail1">Price In Euros</label>
+        <input type="text" id="price_input">
+        <button id="submit_button" type="submit">
+            Submit
+        </button>
+    </form>
+
+
+    <ul id="item_container" class="items">
+
+    </ul>
+    <button id="sort_button" type="button">
+        Sort
+    </button>
+    <button id="sum_button" type="button">
+        Sum of price
+    </button>
+    <div id="sum_price" class="sum"></div>
+
+    <form id="find_form">
+        <h1>Find Tourist Voucher</h1>
+        <label for="exapleImputEmail1">By Country</label>
+        <input type="text" id="find_input">
+        <button id="find_button" type="submit">
+            Find
+        </button>
+    </form>
+    <button id="return_button" type="submit">
+        Return
+    </button>
+    <script type="module" src="./js/index.js"></script>
+</body>
+
+</html>

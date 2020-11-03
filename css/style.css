@@ -1,0 +1,15 @@
+.items {
+    display: flex;
+    align-items: center;
+}
+
+.items li {
+    border: 5px solid royalblue;
+    margin-right: 40px;
+}
+
+.sum {
+    width: 100px;
+    height: 40px;
+    border: 5px solid red;
+}
