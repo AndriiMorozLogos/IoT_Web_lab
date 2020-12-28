@@ -1,0 +1,116 @@
+body {
+    font-family: Mulish;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    display: block;
+}
+
+button {
+    border: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.default__circle {
+    z-index: 2;
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 41px;
+    text-align: center;
+    background: #458ff6
+}
+
+.default__title {
+    z-index: 2;
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 47px;
+}
+
+.defalut-button {
+    width: 200px;
+    height: 60px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 55px;
+    color: #ffffff;
+    text-align: center;
+    background: #458FF6;
+    border-radius: 55px;
+}
+
+.defalut-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.defalut-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.defalut-button:hover span {
+    padding-right: 25px;
+}
+
+.defalut-button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.change-button {
+    color: #458FF6;
+    background: #ffffff;
+    border: 1.4px solid #458FF6;
+}
+
+.change-button2 {
+    color: #458FF6;
+    background: #ffffff;
+    border: 1.4px solid #458FF6;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.change-circle {
+    color: #458FF6;
+    background: #ffffff;
+}
+
+.change-title {
+    color: #ffffff;
+    margin-top: 0;
+    font-size: 20px;
+    line-height: 55px;
+}
+
+.footer-item:hover {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 2000px) {
+    .container {
+        max-width: 1800px;
+    }
+}

@@ -1,0 +1,82 @@
+.element4 {
+    position: absolute;
+    margin-top: 250px;
+}
+
+.bigelement {
+    margin-left: auto;
+    margin-top: -200px;
+}
+
+.middle-container {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -800px;
+}
+
+.rectangle {
+    position: relative;
+    width: 290px;
+    flex-wrap: wrap;
+    height: 300px;
+    background: #ffffff;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    margin-right: 40px;
+    margin-top: 56px;
+}
+
+.frame {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-left: 37px;
+    margin-top: 54px;
+}
+
+.rectangle h1 {
+    position: absolute;
+    margin-left: 39px;
+    font-size: 24px;
+    line-height: 56px;
+    margin-top: 140px;
+    padding: 0;
+}
+
+.rectangle p {
+    position: absolute;
+    margin-left: 39px;
+    line-height: 28px;
+    margin-top: 190px;
+}
+
+@media screen and (max-width:865px) {
+    .element4 {
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .element4 {
+        display: none;
+    }
+    .bigelement {
+        width: 590px;
+    }
+}
+
+@media screen and (max-width:1095px) {
+    .middle-container {
+        margin-left: 200px;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .middle-container {
+        margin-left: 120px;
+        position: absolute;
+    }
+}
